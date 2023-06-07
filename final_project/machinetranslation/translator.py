@@ -6,4 +6,11 @@ def englishToFrench(englishText):
     return frenchText
 
 
+def frenchToEnglish(frenchText):
+    englishText = MyMemoryTranslator(source='french', target='english').translate(frenchText)
+    return englishText
+
+
 print(englishToFrench("hello"))
+
+print(frenchToEnglish("bonjour"))
