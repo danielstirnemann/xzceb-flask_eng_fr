@@ -12,5 +12,4 @@ def frenchToEnglish(frenchText):
 
 
 print(englishToFrench("hello"))
-
 print(frenchToEnglish("bonjour"))
